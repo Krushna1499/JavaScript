@@ -26,7 +26,26 @@ console.log(booleanIsLoggedIn);
 //"33abc"==>NaN
 //true==>1;false==>0
 */
-let someNumber=33;
+// let someNumber=33;
 
-let stringNumber=String(someNumber);
-console.log(stringNumber);
+// let stringNumber=String(someNumber);
+// console.log(stringNumber);
+
+let str1="Krishna";
+let str2="Lavhare";
+let str3=str1+str2;
+console.log(str3);
+
+// console.log("1"+2);
+// console.log(1+"2");
+// console.log("1"+2+2);
+// console.log(1+2+"2");
+
+// console.log((3+4)*5%3);
+
+console.log(+true);
+console.log(+"");
+
+let gameCounter=100;
+++gameCounter;
+console.log(gameCounter);
