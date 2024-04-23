@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>Basics and How to use</h1>
+    <button type="button" onclick="alert('You clicked Me')" onmouseover="alert('onovver')">Click Me</button>
+    <button type="button" onclick="onButtonClick()" onmouseover="onMouseHover()">Please Click Me</button>
+<br>
+    <button type="button" onclick="onclickExternal()">Click</button>
+    <button type="button" onclick="onButtonClickExternal()" >Please Click</button>
+<script>
+    function onButtonClick(params) {
+        alert("You Clicked Me");    
+    }
+    function onMouseHover(params) {
+        alert("Your mouse pointer is over me");
+    }
+</script>
+<script src="script.js"></script>
+</body>
+</html>
