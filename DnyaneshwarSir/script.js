@@ -88,3 +88,5 @@ onOff:function (params) {
 console.log(f1.color);
 console.log(f1.increaseSpeed);  //25/04/24Sir
 
+
+
