@@ -58,3 +58,32 @@ var obj3 =
 }
 console.log(obj3);
 
+var s = Symbol("FIRST_ODD_NUMBER");
+
+var obj4={};
+obj4.firstName="John";
+obj4.lastName="Doe";
+obj4["age"] = 10;
+obj4[s] = 1;
+
+console.log(obj4);
+var obj5={};
+obj5[s] = 1;
+var obj6={};
+
+obj6 [s] = 1;
+console.log(obj4,obj5,obj6);
+
+//Rest Properties
+var hobbies = ["Painting","Drawing","Singing","Playing"];
+
+var[first,second, ...resthobbies] = hobbies;
+
+console.log(first,second,resthobbies);
+
+
+
+
+
+
+
