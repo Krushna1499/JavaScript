@@ -81,6 +81,34 @@ var[first,second, ...resthobbies] = hobbies;
 
 console.log(first,second,resthobbies);
 
+function addition(...numbers) {
+    return numbers.reduce((previousValue,currentValue)=>{
+
+        return previousValue + currentValue;
+    },0);
+}
+//constant Objects 
+const car = {type:"Ferrari",model:"650",color:"RED"};
+
+car.color="white";
+
+console.log(car.color);
+
+Number("  ");
+
+
+// unary operator
+
+let y="5";
+let x= + y;
+console.log(typeof(x));
+console.log(typeof(y));
+
+let y1 = "Krishna";
+let x1 = + y1;
+
+console.log(typeof(x1));
+console.log(typeof(y1));
 
 
 
